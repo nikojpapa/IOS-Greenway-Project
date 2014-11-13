@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6EEA6761A0058E20001C54E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EEA6751A0058E20001C54E /* AppDelegate.swift */; };
+		D6EEA6781A0058E20001C54E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EEA6771A0058E20001C54E /* ViewController.swift */; };
+		D6EEA67B1A0058E20001C54E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6EEA6791A0058E20001C54E /* Main.storyboard */; };
+		D6EEA67D1A0058E20001C54E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6EEA67C1A0058E20001C54E /* Images.xcassets */; };
+		D6EEA6801A0058E20001C54E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6EEA67E1A0058E20001C54E /* LaunchScreen.xib */; };
+		D6EEA68C1A0058E20001C54E /* RFK_GreenwayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EEA68B1A0058E20001C54E /* RFK_GreenwayTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6EEA6861A0058E20001C54E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6EEA6681A0058E20001C54E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6EEA66F1A0058E20001C54E;
+			remoteInfo = "RFK Greenway";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6EEA6701A0058E20001C54E /* RFK Greenway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RFK Greenway.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6EEA6741A0058E20001C54E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6EEA6751A0058E20001C54E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6EEA6771A0058E20001C54E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6EEA67A1A0058E20001C54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6EEA67C1A0058E20001C54E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D6EEA67F1A0058E20001C54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D6EEA6851A0058E20001C54E /* RFK GreenwayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RFK GreenwayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6EEA68A1A0058E20001C54E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6EEA68B1A0058E20001C54E /* RFK_GreenwayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFK_GreenwayTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6EEA66D1A0058E20001C54E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6EEA6821A0058E20001C54E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6EEA6671A0058E20001C54E = {
+			isa = PBXGroup;
+			children = (
+				D6EEA6721A0058E20001C54E /* RFK Greenway */,
+				D6EEA6881A0058E20001C54E /* RFK GreenwayTests */,
+				D6EEA6711A0058E20001C54E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6EEA6711A0058E20001C54E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6EEA6701A0058E20001C54E /* RFK Greenway.app */,
+				D6EEA6851A0058E20001C54E /* RFK GreenwayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6EEA6721A0058E20001C54E /* RFK Greenway */ = {
+			isa = PBXGroup;
+			children = (
+				D6EEA6751A0058E20001C54E /* AppDelegate.swift */,
+				D6EEA6771A0058E20001C54E /* ViewController.swift */,
+				D6EEA6791A0058E20001C54E /* Main.storyboard */,
+				D6EEA67C1A0058E20001C54E /* Images.xcassets */,
+				D6EEA67E1A0058E20001C54E /* LaunchScreen.xib */,
+				D6EEA6731A0058E20001C54E /* Supporting Files */,
+			);
+			path = "RFK Greenway";
+			sourceTree = "<group>";
+		};
+		D6EEA6731A0058E20001C54E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6EEA6741A0058E20001C54E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6EEA6881A0058E20001C54E /* RFK GreenwayTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6EEA68B1A0058E20001C54E /* RFK_GreenwayTests.swift */,
+				D6EEA6891A0058E20001C54E /* Supporting Files */,
+			);
+			path = "RFK GreenwayTests";
+			sourceTree = "<group>";
+		};
+		D6EEA6891A0058E20001C54E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6EEA68A1A0058E20001C54E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6EEA66F1A0058E20001C54E /* RFK Greenway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6EEA68F1A0058E20001C54E /* Build configuration list for PBXNativeTarget "RFK Greenway" */;
+			buildPhases = (
+				D6EEA66C1A0058E20001C54E /* Sources */,
+				D6EEA66D1A0058E20001C54E /* Frameworks */,
+				D6EEA66E1A0058E20001C54E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RFK Greenway";
+			productName = "RFK Greenway";
+			productReference = D6EEA6701A0058E20001C54E /* RFK Greenway.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6EEA6841A0058E20001C54E /* RFK GreenwayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6EEA6921A0058E20001C54E /* Build configuration list for PBXNativeTarget "RFK GreenwayTests" */;
+			buildPhases = (
+				D6EEA6811A0058E20001C54E /* Sources */,
+				D6EEA6821A0058E20001C54E /* Frameworks */,
+				D6EEA6831A0058E20001C54E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6EEA6871A0058E20001C54E /* PBXTargetDependency */,
+			);
+			name = "RFK GreenwayTests";
+			productName = "RFK GreenwayTests";
+			productReference = D6EEA6851A0058E20001C54E /* RFK GreenwayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6EEA6681A0058E20001C54E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = GAI;
+				TargetAttributes = {
+					D6EEA66F1A0058E20001C54E = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					D6EEA6841A0058E20001C54E = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = D6EEA66F1A0058E20001C54E;
+					};
+				};
+			};
+			buildConfigurationList = D6EEA66B1A0058E20001C54E /* Build configuration list for PBXProject "RFK Greenway" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6EEA6671A0058E20001C54E;
+			productRefGroup = D6EEA6711A0058E20001C54E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6EEA66F1A0058E20001C54E /* RFK Greenway */,
+				D6EEA6841A0058E20001C54E /* RFK GreenwayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6EEA66E1A0058E20001C54E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6EEA67B1A0058E20001C54E /* Main.storyboard in Resources */,
+				D6EEA6801A0058E20001C54E /* LaunchScreen.xib in Resources */,
+				D6EEA67D1A0058E20001C54E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6EEA6831A0058E20001C54E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6EEA66C1A0058E20001C54E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6EEA6781A0058E20001C54E /* ViewController.swift in Sources */,
+				D6EEA6761A0058E20001C54E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6EEA6811A0058E20001C54E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6EEA68C1A0058E20001C54E /* RFK_GreenwayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6EEA6871A0058E20001C54E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6EEA66F1A0058E20001C54E /* RFK Greenway */;
+			targetProxy = D6EEA6861A0058E20001C54E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6EEA6791A0058E20001C54E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6EEA67A1A0058E20001C54E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6EEA67E1A0058E20001C54E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6EEA67F1A0058E20001C54E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6EEA68D1A0058E20001C54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6EEA68E1A0058E20001C54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6EEA6901A0058E20001C54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RFK Greenway/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6EEA6911A0058E20001C54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RFK Greenway/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D6EEA6931A0058E20001C54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RFK GreenwayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RFK Greenway.app/RFK Greenway";
+			};
+			name = Debug;
+		};
+		D6EEA6941A0058E20001C54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RFK GreenwayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RFK Greenway.app/RFK Greenway";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6EEA66B1A0058E20001C54E /* Build configuration list for PBXProject "RFK Greenway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6EEA68D1A0058E20001C54E /* Debug */,
+				D6EEA68E1A0058E20001C54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6EEA68F1A0058E20001C54E /* Build configuration list for PBXNativeTarget "RFK Greenway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6EEA6901A0058E20001C54E /* Debug */,
+				D6EEA6911A0058E20001C54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D6EEA6921A0058E20001C54E /* Build configuration list for PBXNativeTarget "RFK GreenwayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6EEA6931A0058E20001C54E /* Debug */,
+				D6EEA6941A0058E20001C54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6EEA6681A0058E20001C54E /* Project object */;
+}
